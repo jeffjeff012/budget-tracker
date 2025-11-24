@@ -5,7 +5,7 @@ const AuthLayout = ({ children }) => {
   return <div className="flex">
      
       {/* Right Side Design - Hidden on Mobile */}
-      <div className="hidden md:flex md:w-[40vw] h-screen bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 relative overflow-hidden">
+      <div className="hidden md:flex md:w-[47vw] h-screen bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 relative overflow-hidden">
         {/* Animated Background Circles */}
         <div className="absolute top-20 right-20 w-64 h-64 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 left-20 w-96 h-96 bg-white/10 rounded-full blur-3xl animate-pulse delay-700"></div>
@@ -54,7 +54,7 @@ const AuthLayout = ({ children }) => {
               <div className="bg-white/20 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
                 <DollarSign className="w-6 h-6" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Save Money</h3>
+              <h3 className="font-semibold text-lg mb-2">Track your Money</h3>
               <p className="text-sm text-white/80">Reach financial goals</p>
             </div>
           </div>
